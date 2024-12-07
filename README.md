@@ -8,10 +8,13 @@ This project simulates key concepts in 5G wireless communication technology. It 
 1. **Nupur Jain (202152325)**
 2. **Spruha Thorat (202151172)**
 3. **Sanjeevani Lakade (202151139)**
-4. **Shilpi Giri (202151)**
+4. **Shilpi Giri (202151145)**
 
 ### Mentor
 - **Dr. Bhupendra Kumar**
+
+### Video Presentation
+https://drive.google.com/file/d/1R93yGZgPrZWgbwpuLTRa-V8x71VopDF8/view?usp=sharing
 
 ---
 
@@ -55,6 +58,8 @@ This module allows you to simulate and visualize how different network slices (e
 - Packet Loss (%)
 
 Users can set the simulation duration and observe the performance of each slice over time.
+![image](https://github.com/user-attachments/assets/457bd4ed-e11e-4a5d-9a10-cf92a2bc4f26)
+
 
 ### mmWave Propagation
 The mmWave propagation simulation demonstrates how the signal attenuates over distance and how different environmental factors (urban or indoor) affect signal quality. Users can select:
@@ -65,12 +70,19 @@ The mmWave propagation simulation demonstrates how the signal attenuates over di
 The results include:
 - Path loss vs. distance chart
 - Heatmap of signal coverage in different environments
+ ![image](https://github.com/user-attachments/assets/8829e754-c930-4c9f-9ede-dc52ef72492c)
+![image](https://github.com/user-attachments/assets/68990332-f9cd-46f8-8122-6a8c9df14b61)
+
 
 ### Beamforming Algorithms
 This module simulates beamforming techniques that are key to optimizing coverage and signal strength in 5G networks. The simulation results help in visualizing how different beamforming strategies affect network performance.
+![image](https://github.com/user-attachments/assets/6ff9b84b-394c-4b6c-9c0c-7ad0ad9047ba)
+
 
 ### MCS Simulation (BER & SNR)
 This module simulates how different Modulation and Coding Schemes (MCS) impact Bit Error Rate (BER) and Signal-to-Noise Ratio (SNR). It helps to understand the trade-offs between data rate and error performance.
+![image](https://github.com/user-attachments/assets/e33cbb0c-867c-4bd3-9407-787a0b54f2a5)
+
 
 ## Technologies Used
 
