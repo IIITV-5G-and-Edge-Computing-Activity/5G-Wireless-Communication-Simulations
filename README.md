@@ -16,6 +16,9 @@ This project simulates key concepts in 5G wireless communication technology. It 
 ### Video Presentation
 https://drive.google.com/file/d/1R93yGZgPrZWgbwpuLTRa-V8x71VopDF8/view?usp=sharing
 
+### Project Report
+https://drive.google.com/file/d/1TOr-IgNMb1qMOO8XJLpSO0_03wHWkTSn/view?usp=drive_link
+
 ---
 
 ## Table of Contents
