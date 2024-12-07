@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beamforming Simulation</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+
+<body>
+    <div class="main-wrapper">
+        <div class="header">
+            <h1>Beamforming Simulation</h1>
+            <p>Explore the effects of different beamforming techniques and scenarios</p>
+        </div>
+
+        <div class="simulation-container">
+            <div class="control-panel">
+                <div class="control-item">
+                    <label for="beamformingType">Beamforming Type:</label>
+                    <select id="beamformingType">
+                        <option value="analog">Analog Beamforming</option>
+                        <option value="digital">Digital Beamforming</option>
+                        <option value="hybrid">Hybrid Beamforming</option>
+                    </select>
+                </div>
+
+                <div class="control-item">
+                    <label for="scenario">Scenario:</label>
+                    <select id="scenario">
+                        <option value="singleUser">Single-User MIMO</option>
+                        <option value="multiUser">Multi-User MIMO</option>
+                    </select>
+                </div>
+
+                <div class="action-buttons">
+                    <button onclick="runSimulation()">Run Simulation</button>
+                </div>
+            </div>
+
+            <div class="output-panel">
+                <div id="beamformingCanvas"></div>
+                <div id="metrics"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
