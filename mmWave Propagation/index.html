@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mmWave Propagation Simulation</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>mmWave Propagation Simulation</h1>
+    </header>
+    <main>
+        <section class="controls-section">
+            <h2>Simulation Settings</h2>
+            <div class="controls-container">
+                <label for="environment">Environment:</label>
+                <select id="environment">
+                    <option value="urban">Urban Environment</option>
+                    <option value="indoor">Indoor Environment</option>
+                </select>
+
+                <label for="pathLossModel">Path Loss Model:</label>
+                <select id="pathLossModel">
+                    <option value="fspl">Free Space Path Loss</option>
+                    <option value="cost231">COST231</option>
+                </select>
+
+                <label for="frequency">Frequency (GHz):</label>
+                <input type="number" id="frequency" min="30" max="300" value="60" step="1">
+
+                <button onclick="runSimulation()">Run Simulation</button>
+            </div>
+        </section>
+        <section class="charts-section">
+            <div id="pathLossChart" class="chart"></div>
+            <div id="environmentMap" class="chart"></div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
